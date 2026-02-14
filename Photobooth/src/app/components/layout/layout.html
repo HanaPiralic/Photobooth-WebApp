@@ -1,0 +1,11 @@
+<div class="grid-container">
+  @for (img of capturedImages; track $index) {
+    <div class="grid-item">
+      <img [src]="img" class="captured-img" />
+    </div>
+  }
+
+  @for (empty of [].constructor(4 - capturedImages.length); track $index) {
+    <div class="grid-item empty"></div>
+  }
+</div>

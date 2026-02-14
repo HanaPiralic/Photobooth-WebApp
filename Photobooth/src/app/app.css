@@ -1,0 +1,36 @@
+main{
+    background-color: #ebd85f4b;
+    height: 100vh;
+}
+
+.title{
+  font-family: 'Pacifico', cursive;
+  font-weight: bold;
+  color: #efb332f2;
+  text-shadow: 4px 4px 0px rgba(248, 0, 0, 0.681);
+  transform: skewX(-10deg);
+  padding-top: 20px;
+  
+  
+}
+header{
+    text-align:center;
+    font-size: 60pt;
+}
+
+.main_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.camera_lay_div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    margin-top: 2vh;
+    width:100%;
+}
+

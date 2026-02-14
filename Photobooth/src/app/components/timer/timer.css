@@ -1,0 +1,10 @@
+div{
+  font-family: 'Pacifico', cursive;
+  font-weight: bold;
+  color: #f70000ae;
+  transform: skewX(-10deg);
+  font-size: 50pt;
+  align-items: center;
+  justify-content:center;
+  display: flex;
+}

@@ -1,0 +1,27 @@
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+<main>
+  @if (!isFinished) {
+    <header>
+      <h1 class="title">Vintage Booth</h1>
+    </header>
+
+    <div class="main_div">
+      <div class="camera_lay_div">
+        <div>
+          <app-timer />
+          <app-camera />
+        </div>
+        <app-layout />
+      </div>
+      <app-capture-button />
+    </div>
+  } @else {
+    <app-final-strip />
+  }
+</main>
+<router-outlet />

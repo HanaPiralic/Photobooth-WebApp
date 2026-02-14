@@ -1,0 +1,16 @@
+<div class="overlay">
+  <div class="strip-container">
+    <div class="film-strip">
+      @for (img of service.capturedImages; track $index) {
+        <div class="photo-frame">
+          <img [src]="img" alt="Captured memory">
+        </div>
+      }
+    </div>
+
+    <div class="actions">
+      <button class="btn download" (click)="downloadImage()">Download</button>
+      <button class="btn restart" (click)="restart()">New Booth</button>
+    </div>
+  </div>
+</div>
